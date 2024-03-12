@@ -1,0 +1,153 @@
+/* index.css */
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e3a3a3;
+}
+
+/* Root container styles */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container styles */
+#root > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #f8f2f2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Button styles */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1a80ec;
+  color: #e71212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #278bf7;
+}
+
+/* Form styles */
+
+
+
+/* Result styles */
+
+
+
+/* HomePage.css */
+
+
+.start-quiz-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #148d18;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-quiz-btn:hover {
+  background-color: #45a049;
+}
+/* Question.css */
+
+.question-container {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.question-title {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-answer {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-answer:hover {
+  background-color: #0056b3;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-finish {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-continue {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+/* Result.css */
+
+.result-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.result-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 48px;
+  font-weight: bold;
+  color: #007bff; /* Blue color for score */
+}
+
